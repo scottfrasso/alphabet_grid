@@ -3,7 +3,7 @@
 // english dictionary and the alphabet grid in order. We could substitute any
 // dictionary and any alphabet grid (as long as its 5x5).
 
-import Solver from "./app/alphabet_solver.js";
+const Solver = require("./app/alphabet_solver.js");
 
 const large_dictionary_file = "./etc/large_dictionary.txt";
 const sample_alphabet_grid = "ABCDE,FGHIJ,KLMNO,PQRST,UVWXY";

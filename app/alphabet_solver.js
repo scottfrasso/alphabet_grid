@@ -1,8 +1,8 @@
 // The Solver class uses a dictionary and an AlphabetGrid to walk through
 // the grid of letters and find the longest valid word. 
 
-const AlphabetGrid = require("./alphabet_grid.js"),
-	Dictionary = require("./dictionary.js");
+const Dictionary = require("./dictionary.js");
+const AlphabetGrid = require("./alphabet_grid.js");
 
 class Solver {
 	constructor(alphabet, dictionary_file) {
