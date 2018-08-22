@@ -3,11 +3,11 @@
 This problem involves finding the longest possible word in the alphabet grid below. Legal moves include moving up,
  down, left, and right. As well as wrapping around going from A to E or A to U, and so on.
 
-ABCDE
-FGHIJ
-KLMNO
-PQRST
-UVWXY
+ABCDE<br/>
+FGHIJ<br/>
+KLMNO<br/>
+PQRST<br/>
+UVWXY<br/>
 
 ### Running the example
 
