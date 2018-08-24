@@ -1,5 +1,7 @@
 # Alphabet grid problem
 
+[ ![Codeship Status for scottfrasso/alphabet_grid](https://app.codeship.com/projects/a2eeada0-89e3-0136-cec0-1a36bb6cd48d/status?branch=master)](https://app.codeship.com/projects/303169)
+
 This problem involves finding the longest possible word in the alphabet grid below. Legal moves include moving up,
  down, left, and right. As well as wrapping around going from A to E or A to U, and so on.
 
