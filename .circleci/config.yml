@@ -6,11 +6,11 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install
+          name: install
           command: yarn install
       - run:
-          name: Test
-          command yarn run test
+          name: test
+          command: yarn run test
 workflows:
   build-and-test:
     jobs:
