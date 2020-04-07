@@ -5,10 +5,12 @@ jobs:
       - image: circleci/node:current
     steps:
       - checkout
-      - node/with-cache:
-          steps:
-            - run: yarn install
-            - run: yarn run test
+      - run:
+          name: Install
+          command: yarn install
+      - run:
+          name: Test
+          command yarn run test
 workflows:
   build-and-test:
     jobs:
